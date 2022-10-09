@@ -1,4 +1,4 @@
 RewriteEngine on
 # Force WWW & SSL
-RewriteCond %{HTTP_HOST} !^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ https://www.antonellebellini.com.br/$1 [L,R=301] 
+#RewriteCond %{HTTP_HOST} !^www\.(.*)$ [NC]
+#RewriteRule ^(.*)$ https://www.antonellebellini.com.br/$1 [L,R=301] 
